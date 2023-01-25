@@ -31,7 +31,7 @@ export const Navbar = () => {
                         className="nav-item nav-link text-info" 
                         to="/login"
                     >
-                      <img src="../../../src/assets/heroes/icono.png" alt=""  />
+                      <img src="/src/pasajeros/components/icono.png" alt=""  />
                     </NavLink>
 
                    
