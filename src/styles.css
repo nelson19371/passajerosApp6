@@ -1,0 +1,64 @@
+img{
+    width: 45px;
+    height: 35px;
+}
+
+h1{
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: orange;
+    padding: 10px;
+    font-size: 29px;
+    border-radius: 10px;
+}
+
+.Tabla{
+    margin: 60px;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#boton-excel{
+    margin-left: 89.5%;
+}
+
+
+
+.bg{
+    background-image: url(../src/assets/heroes/Fondo.PNG);
+    background-position: center center;
+}
+
+
+
+
+
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #f5b87ba9, #fae3739f) ;
+}
+
+
+#bot{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.divTitulo{
+    background: rgba(255, 255, 255, 0.774);
+    padding: 13px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.divTituloInicio{
+
+    background: rgba(255, 255, 255, 0.774);
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+
+}
