@@ -72,7 +72,7 @@ export const LoginPage = () => {
                 <div className="d-grid">
                     <button disabled={isAuthenticating} type="submit" className="btn btn-warning" onClick={onSubmit} id="bot">Iniciar Sesión</button>
                     <br/>
-                    <button disabled={isAuthenticating} type="submit" className="btn btn-outline-danger"  onClick={onGoogleSignIn} > Continuar con Google</button>
+                    
                 </div>
                 <div className="mb-4 mt-3">
                 TRACTECK DERECHOS RESERVADOS
