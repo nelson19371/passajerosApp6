@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate, NavLink, useNavigate } from 'react-router-dom';
 import { startLogout } from '../../store/auth';
-
+import logo from '../../assets/heroes/icono.png'
 
 export const Navbar = () => {
     let nombre = 'Julio Vega';
@@ -31,7 +31,7 @@ export const Navbar = () => {
                         className="nav-item nav-link text-info" 
                         to="/login"
                     >
-                      <img src="/src/pasajeros/components/icono.png" alt=""  />
+                      <img src={logo}/>
                     </NavLink>
 
                    
