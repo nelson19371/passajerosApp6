@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Navigate, Route, Routes} from "react-router-dom"
+import { Navigate, Route, Routes,} from "react-router-dom"
 import { LoginPage } from '../auth/pages/LoginPage'
 import { PasajerosRoutes } from '../pasajeros/routes/PasajerosRoutes'
 import { Navbar } from '../pasajeros/components'
@@ -10,6 +10,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 import { async } from '@firebase/util'
 import { login, logout } from '../store/auth'
 import { useCheckAuth } from '../hooks/useCheckAuth'
+import {Error404} from "../pasajeros/page/Error404"
 
 export const AppRouter = () => {
 
@@ -35,7 +36,7 @@ export const AppRouter = () => {
 
       
     <Route path ="/" element={<Navigate to ="/login"/>}/>
-    
+    <Route path='*' element={<Navigate to='/' />} />
         
        
         
