@@ -30,7 +30,7 @@ export const AppRouter = () => {
         
         {
           (status ==='autenticated')
-          ?  <Route path="/*" element= {<PasajerosRoutes/>}/>:<Route path="login" element= {<LoginPage/>}/>
+          ?  <Route path="/*" element= {<PasajerosRoutes/>}/>:<Route path="/*" element= {<LoginPage/>}/>
         }
 
       
