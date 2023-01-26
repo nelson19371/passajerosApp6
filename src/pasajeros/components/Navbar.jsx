@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Navigate, NavLink, useNavigate } from 'react-router-dom';
 import { startLogout } from '../../store/auth';
-import logo from '../../assets/heroes/icono.png'
+import logo from '../components/icono.png'
 
 export const Navbar = () => {
     let nombre = 'Julio Vega';
