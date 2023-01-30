@@ -92,14 +92,16 @@ export const MinaPage = () => {
       <h1>Pasajeros registrados turno mina</h1>
       </div>
     
-    <div className="Tabla">
+      <div class="table-responsive-sm">
+  <table class="table">
+  <div className="Tabla">
     <h2 >Lista de Pasajeros</h2>
     <input value={search} onChange={searcher} type='text' data-date-format="YYYY-MM-DD" placeholder='Buscar por fecha en formato yyyy-mm-dd' className='form-control mt-3'/>
     <button type="button" className="btn btn-success mb-5 mt-5" id="boton-excel" onClick={converted}>Convertir a Excel</button>
     <table className="table table-light table-striped table-bordered">
   <thead>
     <tr className="table-dark">
-      <th scope="col">id</th>
+      
       <th scope="col">RUT</th>
       <th scope="col">FECHA</th>
       <th scope="col">UBICACIÓN</th>
@@ -108,7 +110,7 @@ export const MinaPage = () => {
   <tbody>
             {results.map((results)=>(
               <tr key={results.id}>
-                  <td>{results.id}</td>
+                  
                   <td>{results.name}</td>
                   <td>{results.fecha}</td>
                   <td>{results.ubicacion}</td>
@@ -117,6 +119,8 @@ export const MinaPage = () => {
         </tbody>
 </table>
     </div>
+      </table>
+</div>
     </>
   )
 }
