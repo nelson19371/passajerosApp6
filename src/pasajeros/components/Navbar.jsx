@@ -4,7 +4,7 @@ import { startLogout } from '../../store/auth';
 import logo from '../components/icono.png'
 
 export const Navbar = () => {
-    let nombre = 'Julio Vega';
+   
     const {photoURL} = useSelector(state => state.auth);
 
    const dispatch = useDispatch();
@@ -148,11 +148,7 @@ export const Navbar = () => {
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
                     
-                        <span className='nav-item nav-link text-warning'>
-                            {(photoURL ===null) ? nombre: photoURL}
-         
                         
-                        </span>
 
                         <button className='nav-item nav-link btn'
                         onClick={onLogout}
