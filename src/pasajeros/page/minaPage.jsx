@@ -112,7 +112,7 @@ export const MinaPage = () => {
               <tr key={results.id}>
                   
                   <td>{results.name}</td>
-                  <td>{results.fecha}</td>
+                  <td class="columna-fecha">{results.fecha}</td>
                   <td>{results.ubicacion}</td>
               </tr>
             ))}
