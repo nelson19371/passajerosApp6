@@ -8,7 +8,7 @@ export const MinaPage = () => {
   const [search, setSearch] = useState("")
   let jsonObject =''
   //funcion para traer los datos de la API
-  const URL = 'https://api3-production.up.railway.app/api/employees'
+  const URL = 'https://api3-production.up.railway.app/api/minas'
 
   const showData = async() =>{
      axios.get(URL).then((res) =>{
