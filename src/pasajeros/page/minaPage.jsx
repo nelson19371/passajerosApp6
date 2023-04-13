@@ -103,17 +103,17 @@ export const MinaPage = () => {
     <tr className="table-dark">
       
       <th scope="col">RUT</th>
-      <th scope="col">FECHA</th>
       <th scope="col">UBICACIÓN</th>
+      <th scope="col">FECHA</th>
     </tr>
   </thead>
   <tbody>
             {results.map((results)=>(
               <tr key={results.id}>
                   
-                  <td>{results.name}</td>
-                  <td class="columna-fecha">{results.fecha}</td>
-                  <td>{results.ubicacion}</td>
+                  <td>{results.rut}</td>
+                  <td class="columna-fecha">{results.ubicacion}</td>
+                  <td>{results.fecha}</td>
               </tr>
             ))}
         </tbody>
