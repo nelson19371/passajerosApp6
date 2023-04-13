@@ -46,8 +46,8 @@ export const MinaPage = () => {
           sheet: "PASAJEROS",
           columns: [
             { label: "RUT", value: "user" }, // Top level data
-            { label: "FECHA", value: (row) => row.age  }, // Custom format
-            { label: "UBICACIÓN", value: (row) => (row.more ? row.more.phone || "" : "") }, // Run functions
+            { label: "UBICACIÓN", value: (row) => row.age  }, // Custom format
+            { label: "FECHA", value: (row) => (row.more ? row.more.phone || "" : "") }, // Run functions
           ],
           
           content: [
